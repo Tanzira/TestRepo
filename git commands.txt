@@ -1,0 +1,28 @@
+Download repository in local machine:
+	git clone <url>
+
+
+Create new branch in local repository:
+	git checkout -b <branchname>
+Switch to a branch in local repository:
+	git checkout <branchname>
+Delete a branch in local repository:
+	git branch -d <branchname>
+Delete a branch in remote repository:
+	git push origin --delete <branchName>
+Update local repository with all branches from remote repository:
+	git fetch
+
+
+Add all files for commiting:
+	git add .
+Commiting changes to current branch in local repository:
+	git commit -m "short_description"
+Pushing the content of current brunch to a specific branch in remote repository
+	git push origin <branchname>
+Download the content of a specific branch into the current branch:
+	git pull <url> <branchname>
+
+
+Merge current branch with a specific branch:
+	git merge <branchname>
