@@ -23,6 +23,8 @@ Pushing the content of current brunch to a specific branch in remote repository
 Download the content of a specific branch into the current branch:
 	git pull <url> <branchname>
 
+Discard the changes made to files(Opposite of a commit)
+	git checkout -- .
 
 Merge current branch with a specific branch:
 	git merge <branchname>
