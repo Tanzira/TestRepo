@@ -15,7 +15,7 @@ Update local repository with all branches from remote repository:
 
 
 Add all files for commiting:
-	git add .
+	git add --all .
 Commiting changes to current branch in local repository:
 	git commit -m "short_description"
 Pushing the content of current brunch to a specific branch in remote repository
